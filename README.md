@@ -1,8 +1,11 @@
 # README POUR THE HACKING PINTEREST
 
+  J'ai laissé tombé l'idée de le modif, découragement, fatigue. T-T
+
+#Gems:
 Deux gems supplémentaires ont été installé : gem table_print et la gem faker
 
-## Projet de Nora Bourouis et Hamdi Nassri
+## Projet de Nora Bourouis et Hamdi Nassri(À la base)
 
 Cette base de données a été créé pour un site où les utilisateurs peuvent créer des "pins". où chaque pin contient l'URL d'une image sur le net. Les utilisateurs peuvent commenter les pins, mais ne peuvent pas commenter les commentaires.
 
