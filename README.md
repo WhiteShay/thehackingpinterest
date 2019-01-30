@@ -14,6 +14,10 @@ Le modèle pin est composé d'un url et depend de l'id user (une foreign key) ca
 
 Le modèle du commentaire est constituté de deux clés secondaires ( user_id et pin_id) qui le constituent.
 
-Dans un fichier seeds.rb, on a généré automatiquement des éléments pour chaques models grâce à la gem faker.  
+Dans un fichier seeds.rb, on a généré automatiquement des éléments pour chaques models grâce à la gem faker.
+
+Pour lire la database, tapez un "rails console" dans le terminal, puis checker les tables avec un 'tp NomDuModel.all'. 
+
+Enjoy ;) 
 
 
