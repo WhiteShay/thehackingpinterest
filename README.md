@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Deux gems supplémentaires ont été installé : gem table_print et la gem faker
 
-Things you may want to cover:
+## Projet de Nora Bourouis et Hamdi Nassri
 
-* Ruby version
+Cette base de données a été créé pour un site où les utilisateurs peuvent créer des "pins". où chaque pin contient l'URL d'une image sur le net. Les utilisateurs peuvent commenter les pins, mais ne peuvent pas commenter les commentaires.
 
-* System dependencies
+Pour se faire, on a crée une base de donnée avec 3 modèles : celui de l'utilisateur (user), celui du Pin et celui du commentaire (Comment).
 
-* Configuration
+Le modèle user ne dépend de personne (lol), elle est composée de l'attribut name.
 
-* Database creation
+Le modèle pin est composé d'un url et depend de l'id user (une foreign key) car un pin est attaché par un user.
 
-* Database initialization
+Le modèle du commentaire est constituté de deux clés secondaires ( user_id et pin_id) qui le constituent.
 
-* How to run the test suite
+Dans un fichier seeds.rb, on a généré automatiquement des éléments pour chaques models grâce à la gem faker.  
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
