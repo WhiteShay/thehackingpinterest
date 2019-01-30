@@ -1,4 +1,4 @@
-# README
+# README POUR THE HACKING PINTEREST
 
 Deux gems supplémentaires ont été installé : gem table_print et la gem faker
 
